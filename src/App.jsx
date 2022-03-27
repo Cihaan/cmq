@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Landing from "./components/Landing";
 import Home from "./components/Home";
 import Food from "./components/Food";
+import Login from "./components/Login"
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/landing" element={<Landing />} />
+          <Route path="/login" element={<Login />} />
           <Route path="home/" element={<Home />} />
           <Route path="food/" element={<Food />} />
           <Route path="/*" element={<Landing />} />
