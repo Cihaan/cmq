@@ -1,10 +1,12 @@
 import React from 'react'
+import NavBar from './NavBar'
 
-function Home() {
+export default function Home() {
     
     return (
-        <h1>Home gigigi</h1>
+        <div>
+            <NavBar />
+            <h1>Home gigigi</h1>
+        </div>
     )
 }
-
-export default Home

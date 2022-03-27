@@ -1,10 +1,8 @@
 import React from 'react'
 
-function Landing() {
+export default function Landing() {
 
     return (
         <h1>Landing hihiihi</h1>
     )
 }
-
-export default Landing
