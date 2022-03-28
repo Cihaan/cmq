@@ -3,7 +3,6 @@ import { Routes, Route, Link } from "react-router-dom";
 import AddRestaurant from "./components/AddRestaurant";
 import Landing from "./components/Landing";
 import Home from "./components/Home";
-import Food from "./components/Food";
 import Login from "./components/Login"
 
 export default function App() {
@@ -16,7 +15,6 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/add" element={<AddRestaurant/>}></Route>
-          <Route path="/food" element={<Food />} />
           <Route path="/*" element={<Landing />} />
         </Routes>
       </div>
