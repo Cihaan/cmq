@@ -3,9 +3,15 @@ import React from "react";
 export default function AddRestaurant() {
   return (
     <div className="h-full">
-      <h1 className="text-[#37B9F3] font-['Ubuntu'] text-center text-3xl font-medium p-5">
-        Add a restaurant
-      </h1>
+      <div className="flex items-center">
+        {/* on click router goes back */}
+        <h1 className="text-[#37B9F3] font-['Ubuntu'] text-center text-3xl font-medium p-5 absolute left-0">
+          &lt;
+        </h1>
+        <h1 className="text-[#37B9F3] font-['Ubuntu'] text-center text-3xl font-medium p-5 ml-2 flex-1">
+          Add a restaurant
+        </h1>
+      </div>
       <div className="flex flex-col h-screen">
         <div className="flex bg-[#212D3F]  h-14 items-center overflow-hidden mb-5 mt-16">
           <label className="text-[#7986BE] ml-3" htmlFor="name">name</label>
