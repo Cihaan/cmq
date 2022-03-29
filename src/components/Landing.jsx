@@ -21,7 +21,7 @@ export default function Landing() {
             Log to the App
           </Link>
           <Link
-            to="/add"
+            to="/"
             className="text-3xl text-[#37B9F3] font-normal align-middle justify-center text-center p-1 mb-5 border-2 rounded"
           >
             Exit
