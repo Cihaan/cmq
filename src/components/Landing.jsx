@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom"
+import img from "../assests/fork.png"
 
 export default function Landing() {
   return (
@@ -8,7 +9,7 @@ export default function Landing() {
           CMQ
         </h1>
         <img
-          src="../assests/fork.png"
+          src={img}
           className="flex-[5] opacity-5 pt-14"
           alt="fork"
         />

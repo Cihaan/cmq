@@ -7,6 +7,7 @@ export function ListRestaurants(props) {
         key={index}
         restaurantName={restaurant.restaurantName}
         note={restaurant.note}
+        link={restaurant.link}
         service={restaurant.service}
       />
     );

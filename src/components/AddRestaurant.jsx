@@ -2,7 +2,6 @@ export default function AddRestaurant() {
   return (
     <div className="h-full">
       <div className="flex items-center">
-        {/* on click router goes back */}
         <h1 className="text-[#37B9F3] font-['Ubuntu'] text-center text-3xl font-medium p-5 absolute left-0">
           &lt;
         </h1>

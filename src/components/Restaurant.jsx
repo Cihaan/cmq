@@ -1,5 +1,6 @@
 import { ListRestaurants } from "./ListRestaurants";
 import { RestaurantDetail } from "./RestaurantDetail";
+import NavBar from "./NavBar";
 
 export function Restaurant() {
   const restaurant = [
@@ -7,11 +8,66 @@ export function Restaurant() {
       restaurantName: "Le Delice",
       note: 2.5,
       service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
+    },
+    {
+      restaurantName: "Le Delice",
+      note: 2.5,
+      service: "Tacos, Burger, Pizza",
+      link: "www.google.com"
     },
   ];
 
   return (
-    <div>
+    <div className="mb-[15px]">
       <div className="min-h-screen bg-[#0F172A] p-5">
         <div className="">
           <h2 className="text-2xl text-center text-[#37B9F3] font-['Roboto']">
@@ -19,10 +75,8 @@ export function Restaurant() {
           </h2>
           <ListRestaurants restaurant={restaurant} />
         </div>
-        <button className="w-full h-10 text-[#37B9F3] text-xl font-['Roboto'] rounded border-2">
-          Ca mange quoi
-        </button>
       </div>
+      <NavBar />
     </div>
   );
 }
